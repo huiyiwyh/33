@@ -36,6 +36,6 @@ func main() {
 	}
 
 	http.HandleFunc("/home", home)
-	http.HandleFunc("/process", process)
+	http.HandleFunc("/process1", process)
 	server.ListenAndServe()
 }
