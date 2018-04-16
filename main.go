@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"net/http"
 	"sync"
@@ -39,6 +38,5 @@ func main() {
 	http.HandleFunc("/home", home)
 	http.HandleFunc("/process", process)
 
-	fmt.Println("ssfsd")
 	server.ListenAndServe()
 }
